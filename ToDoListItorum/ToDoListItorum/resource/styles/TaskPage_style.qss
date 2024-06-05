@@ -1,0 +1,38 @@
+#btnBack{
+    border-image: url("C:/Users/dark_/Desktop/ToDoListItorumProject/icon/Back_icon.png");
+}
+#btnBack::hover{
+    background: rgba(60,60,60,100);
+    border: 2px;
+    border-color: rgba(60,60,60,100);
+    border-radius: 10px;
+}
+
+#ListTasks{
+    background: transparent;
+    font-size: 12pt;
+    font-style: Microsoft Sans Serif;
+}
+#ListTasks::item::hover{
+    background: rgba(60,60,60,100);
+}
+#ListTasks::item::selected:active{
+    background: rgba(60,60,60,100);
+}
+#ListTasks::indicator{
+    width: 16px;
+    height:16px;
+}
+#ListTasks::indicator:checked{
+    border-image: url("C:/Users/dark_/Desktop/ToDoListItorumProject/icon/checked.png"); 
+}
+#ListTasks::indicator:unchecked{
+    border-image: url("C:/Users/dark_/Desktop/ToDoListItorumProject/icon/uncheck.png");
+}
+
+#lineEdTitleNote{
+    background: transparent;
+    font-size: 20pt;
+    font-style: Microsoft Sans Serif;
+    font-weight: bold;
+}

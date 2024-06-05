@@ -1,0 +1,6 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/">
+        <file>styles/ToDoApp_style.qss</file>
+        <file>styles/TaskPage_style.qss</file>
+    </qresource>
+</RCC>

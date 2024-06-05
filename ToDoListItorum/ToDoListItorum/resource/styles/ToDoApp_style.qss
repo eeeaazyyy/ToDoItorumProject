@@ -1,0 +1,26 @@
+ToDoApp{
+    background: #141414;
+}
+#btnCreateNote{
+    border-image: url(":/icons/NewNote.png");
+}
+#btnCreateNote::hover{
+    background: rgba(60,60,60,100);
+    border: 2px;
+    border-color: rgba(60,60,60,100);
+    border-radius: 6px;
+}
+#btnMiscOption{
+    border-image: url(":/icons/ThreeDots.png");
+}
+#btnMiscOption::hover{
+    background: rgba(60,60,60,100);
+    border: 2px;
+    border-color: rgba(60,60,60,100);
+    border-radius: 14px;
+}
+#labelNote{
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}

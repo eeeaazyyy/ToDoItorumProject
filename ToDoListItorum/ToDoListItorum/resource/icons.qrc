@@ -1,0 +1,10 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/">
+        <file>icons/checked.png</file>
+        <file>icons/NewNote.png</file>
+        <file>icons/ThreeDot.png</file>
+        <file>icons/Back_icon.png</file>
+        <file>icons/uncheck.png</file>
+        <file>icons/ThreeDots.png</file>
+    </qresource>
+</RCC>
