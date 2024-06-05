@@ -59,6 +59,7 @@ add_custom_command(TARGET ToDoListItorum POST_BUILD
                    COMMAND ${CMAKE_COMMAND} -E copy_if_different
                    $<TARGET_FILE:Qt6::Xml> $<TARGET_FILE_DIR:ToDoListItorum>)
 
+set_target_properties(${PROJECT_NAME} PROPERTIES COMPILE_FLAGS "/wd4828")
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET ToDoListItorum PROPERTY CXX_STANDARD 20)
 endif()

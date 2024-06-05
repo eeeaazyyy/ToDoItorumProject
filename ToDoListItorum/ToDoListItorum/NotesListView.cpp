@@ -1,4 +1,4 @@
-#include "NotesListView.h"
+﻿#include "NotesListView.h"
 #include "ListViewDelegate.h"
 
 #include <QStandardItemModel>

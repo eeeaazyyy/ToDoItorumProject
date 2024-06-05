@@ -1,4 +1,4 @@
-#include "WriteXMLNote.h"
+п»ї#include "WriteXMLNote.h"
 
 #include "NotesListModel.h"
 #include "TaskNoteItem.h"
@@ -50,7 +50,7 @@ void WriteXMLNote::loadXMLFile(const QString& fileName)
             else if (name == "Task")
             {
                 QXmlStreamAttributes attrs = xmlReader.attributes();
-                // Проверяем наличие интересующих нас атрибутов
+                // РџСЂРѕРІРµСЂСЏРµРј РЅР°Р»РёС‡РёРµ РёРЅС‚РµСЂРµСЃСѓСЋС‰РёС… РЅР°СЃ Р°С‚СЂРёР±СѓС‚РѕРІ
                 
                 if (attrs.hasAttribute("ChecKState"))
                 {
@@ -65,7 +65,7 @@ void WriteXMLNote::loadXMLFile(const QString& fileName)
                 QString Text = attrs.value("Text").toString();
                 TaskData* item = new TaskData{ Text, state };
                 dataList.append(item);
-                // Теперь читаем текст элемента
+                // РўРµРїРµСЂСЊ С‡РёС‚Р°РµРј С‚РµРєСЃС‚ СЌР»РµРјРµРЅС‚Р°
                 qDebug() << name << " " << xmlReader.readElementText();
 
             }

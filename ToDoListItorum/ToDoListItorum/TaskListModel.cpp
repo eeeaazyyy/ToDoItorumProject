@@ -1,4 +1,4 @@
-#include "TaskListModel.h"
+п»ї#include "TaskListModel.h"
 #include "NotesListModel.h"
 
 TaskListModel::TaskListModel(QObject* parent)
@@ -90,7 +90,7 @@ bool TaskListModel::removeRows(int position, int rows, const QModelIndex& parent
 	m_data.removeAt(position);
 	endRemoveRows();
 
-	return true; // Возвращаем true, если удаление прошло успешно
+	return true; // Р’РѕР·РІСЂР°С‰Р°РµРј true, РµСЃР»Рё СѓРґР°Р»РµРЅРёРµ РїСЂРѕС€Р»Рѕ СѓСЃРїРµС€РЅРѕ
 }
 
 /*

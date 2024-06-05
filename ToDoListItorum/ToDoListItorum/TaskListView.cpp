@@ -1,4 +1,4 @@
-
+﻿
 #include <QStandardItemModel>
 #include <QKeyEvent>
 #include <QItemDelegate>

@@ -1,4 +1,4 @@
-#include "ListViewDelegate.h"
+п»ї#include "ListViewDelegate.h"
 #include "ListViewDelegatePrivate.h"
 #include <QPainter>
 
@@ -64,11 +64,11 @@ void ListViewDelegate::paint(QPainter* painter, const QStyleOptionViewItem& opti
 	painter->setClipRect(rect);
 	painter->setFont(opt.font);
 
-	int borderRadiusX = 24; // Радиус по горизонтали
-	int borderRadiusY = 24; // Радиус по вертикали
+	int borderRadiusX = 24; // Р Р°РґРёСѓСЃ РїРѕ РіРѕСЂРёР·РѕРЅС‚Р°Р»Рё
+	int borderRadiusY = 24; // Р Р°РґРёСѓСЃ РїРѕ РІРµСЂС‚РёРєР°Р»Рё
 	
 
-	// Отрисовка элемента TaskListView в виде прямоугольника с округленными краями
+	// РћС‚СЂРёСЃРѕРІРєР° СЌР»РµРјРµРЅС‚Р° TaskListView РІ РІРёРґРµ РїСЂСЏРјРѕСѓРіРѕР»СЊРЅРёРєР° СЃ РѕРєСЂСѓРіР»РµРЅРЅС‹РјРё РєСЂР°СЏРјРё
 	if (firstIndex)
 	{
 		
