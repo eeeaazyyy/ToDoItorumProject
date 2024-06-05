@@ -1,4 +1,4 @@
-#include "NotesListModel.h"
+п»ї#include "NotesListModel.h"
 #include <QtAlgorithms>
 
 
@@ -115,7 +115,7 @@ bool NotesListModel::removeRows(int position, int rows, const QModelIndex& paren
 	m_data.removeAt(position);
 	endRemoveRows();
 
-	return true; // Возвращаем true, если удаление прошло успешно
+	return true; // Р’РѕР·РІСЂР°С‰Р°РµРј true, РµСЃР»Рё СѓРґР°Р»РµРЅРёРµ РїСЂРѕС€Р»Рѕ СѓСЃРїРµС€РЅРѕ
 }
 
 

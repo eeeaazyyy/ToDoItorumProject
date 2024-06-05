@@ -1,5 +1,5 @@
 #btnBack{
-    border-image: url("C:/Users/dark_/Desktop/ToDoListItorumProject/icon/Back_icon.png");
+    border-image: url(:/icons/Back_icon.png);
 }
 #btnBack::hover{
     background: rgba(60,60,60,100);
@@ -24,10 +24,10 @@
     height:16px;
 }
 #ListTasks::indicator:checked{
-    border-image: url("C:/Users/dark_/Desktop/ToDoListItorumProject/icon/checked.png"); 
+    border-image: url(:/icons/checked.png); 
 }
 #ListTasks::indicator:unchecked{
-    border-image: url("C:/Users/dark_/Desktop/ToDoListItorumProject/icon/uncheck.png");
+    border-image: url(:/icons/uncheck.png);
 }
 
 #lineEdTitleNote{
